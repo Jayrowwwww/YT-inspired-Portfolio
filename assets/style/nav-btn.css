@@ -1,0 +1,17 @@
+.nav-btn{
+    display: flex;
+    gap: 10px;
+    height: 40px;
+}
+
+.nav-btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+}

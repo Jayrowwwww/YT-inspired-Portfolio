@@ -1,0 +1,32 @@
+.banner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(128, 128, 128, 0.349);
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 10px;
+    height: 40px;
+    width: 30rem;
+    padding: 0 10px;
+}
+
+.search input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.profile img{
+    height:34px;
+    border-radius: 100%;
+}
