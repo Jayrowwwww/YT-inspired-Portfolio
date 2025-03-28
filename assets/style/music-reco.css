@@ -1,6 +1,6 @@
 .music-reco ul{
     display: grid;
-    grid-template-columns: repeat(4,40rem);
+    grid-template-columns: 38rem 38rem 38rem 38rem 38rem 15rem;
     grid-template-rows: repeat(4, 50px);
     row-gap: 15px;
     margin-top: 20px;
@@ -30,4 +30,8 @@
 
 .det{
     padding-left: 10px;
+}
+
+.det h2{
+    font-weight: 500;
 }

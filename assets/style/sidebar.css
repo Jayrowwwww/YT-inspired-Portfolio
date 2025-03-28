@@ -1,6 +1,8 @@
+@import "color.css";
+
 .side-bar{
-    background-color: #030303;
-    border-right: 1px solid rgb(216, 216, 216);
+    background-color: var(--primary-color);
+    border-right: 1px solid rgb(78, 78, 78);
 }
 
 .side-bar header, .side-nav ul{
@@ -34,11 +36,11 @@
 }
 
 .side-nav ul li:hover{
-    border-right: 4px solid red;
-    color: red;
+    border-right: 4px solid var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 .side-nav ul li a:hover{
-    color: red;
+    color: var(--secondary-color);
 }
 
